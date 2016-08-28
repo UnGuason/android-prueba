@@ -108,6 +108,7 @@ public class MainActivity extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Log.d("leo","asdasd");
         setContentView(R.layout.activity_main);
         mSharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
         // Set default username is anonymous.
